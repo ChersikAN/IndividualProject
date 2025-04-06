@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
+body {
+    margin: 0;
+}
+
+a, p {
+    font-family: "Onest", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.background {
+    height: 130px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner {
+    width: 1220px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-left: 41px;
+    font-size: 40px;
+    font-weight: 400;
+
+}
