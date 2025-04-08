@@ -25,7 +25,7 @@ header {
 }
 
 .conteiner {
-    width: 1220px;
+    max-width: 1220px;
 }
 
 a {
@@ -35,4 +35,19 @@ a {
     font-size: 40px;
     font-weight: 400;
 
+}
+
+@media (max-width: 1090px) { 
+    .conteiner {
+        max-width: 768px;
+        border: 0;
+    }
+    a {
+        font-size: 32px;
+        margin-left: 15px;
+    }
+    header img {
+        width: 82px;
+        height: 67px;
+    }
 }
