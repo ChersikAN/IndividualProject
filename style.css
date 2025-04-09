@@ -12,6 +12,10 @@ a, p {
     text-decoration: none;
 }
 
+nav a:hover {
+    color: #4BF3FF;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -95,10 +99,10 @@ nav a {
 }
 
 .cover-text-block-1 {
-    width: 821px;
+    width: 790px;
     height: 305px;
     background-color: black;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 500;
     border-radius: 44px;
     display: flex;
@@ -108,12 +112,12 @@ nav a {
 
 .cover-text-block-2 {
     padding-left: 55px;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 500;
     border-color: black;
     border-radius: 44px;
     background-color: black;
-    width: 821px;
+    width: 790px;
     height: 161px;
     display: flex;
     align-items: center;
@@ -128,9 +132,9 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 554px;
-    height: 169px;
-    font-size: 70px;
+    width: 500px;
+    height: 150px;
+    font-size: 65px;
     border-radius: 44px;
     background-color: white;
     margin-top: 57px;
@@ -138,7 +142,7 @@ nav a {
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 2);
 }
 .cover-block button:hover {
-    background-color:rgb(204, 204, 204)
+    background-color: #4BF3FF
 }
 
 
@@ -146,17 +150,17 @@ nav a {
     .cover-text-block-1 {
         width: 571px;
         height: 276px;
-        font-size: 35px;
+        font-size: 30px;
     }
     .cover-text-block-2 {
-        font-size: 40px;
+        font-size: 35px;
         width: 528px;
         height: 132px;
     }
     .cover-block button {
-        width: 456px;
-        height: 134px;
-        font-size: 60px;
+        width: 400px;
+        height: 120px;
+        font-size: 40px;
     }
 }
 
