@@ -2,9 +2,10 @@
 
 body {
     margin: 0;
+    background-color: black;
 }
 
-a, p {
+a, p, h1, table {
     font-family: "Onest", sans-serif;
     font-optical-sizing: auto;
     font-style: normal; 
@@ -199,5 +200,110 @@ nav a {
         width: 286px;
         height: 134px;
         font-size: 40px;
+    }
+}
+
+@media (max-width: 445px) {
+    .cover-text-block-1 {
+        width: 200px;
+        height: 276px;
+        font-size: 20px;
+        padding-right: 55px;
+    }
+    .cover-text-block-2 {
+        font-size: 20px;
+        width: 200px;
+        height: 132px;
+        padding-right: 55px;
+    }
+    .cover-block button {
+        width: 200px;
+        height: 134px;
+        font-size: 25px;
+    }
+}
+
+
+#services {
+    display: flex;
+}
+#services h1 {
+    font-size: 45px;
+}
+
+table {
+    width: 1080px;
+    border: 3px white solid;
+    font-size: 35px;
+    border-collapse: collapse;
+    color: white;
+    text-align: center; 
+    margin: 10px;
+}
+
+td {
+    border: 3px white solid;
+    padding: 20px;
+}
+
+th {
+    border: 3px white solid;
+    font-size: 35px;
+    padding: 20px;
+}
+
+.cell-first-left {
+    text-align: left;
+}
+
+.line-table:hover {
+    color: #4BF3FF
+}
+
+@media (max-width: 1120px) {
+    #services h1 {
+        font-size: 35px;
+    }
+    #services {
+        display: flex;
+    }
+    table {
+        width: 600px;
+        border: 2px white solid;
+        font-size: 15px;
+    }
+    td {
+        border: 2px white solid;
+        padding: 10px;
+    }
+    
+    th {
+        border: 2px white solid;
+        font-size: 15px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 750px) {
+    #services h1 {
+        font-size: 25px;
+    }
+    #services {
+        display: flex;
+    }
+    table {
+        width: 400px;
+        border: 1px white solid;
+        font-size: 10px;
+    }
+    td {
+        border: 1px white solid;
+        padding: 10px;
+    }
+    
+    th {
+        border: 1px white solid;
+        font-size: 10px;
+        padding: 10px;
     }
 }
