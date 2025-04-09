@@ -7,7 +7,9 @@ body {
 a, p {
     font-family: "Onest", sans-serif;
     font-optical-sizing: auto;
-    font-style: normal;
+    font-style: normal; 
+    color: white;
+    text-decoration: none;
 }
 
 header {
@@ -26,28 +28,172 @@ header {
 
 .conteiner {
     max-width: 1220px;
+    margin: 0 auto;
 }
 
-a {
+nav a {
     text-decoration: none;
     color: white;
     margin-left: 41px;
-    font-size: 40px;
+    font-size: 38px;
     font-weight: 400;
 
 }
 
-@media (max-width: 1090px) { 
+.logo-text {
+    width: 0px;
+    height: 0px;
+    display: none;
+}
+
+
+@media (max-width: 1090px) {
     .conteiner {
         max-width: 768px;
         border: 0;
     }
-    a {
-        font-size: 32px;
-        margin-left: 15px;
+
+    nav a {
+        font-size: 30px;
+        margin-left: 12px;
     }
+
     header img {
         width: 82px;
         height: 67px;
+    }
+}
+
+@media (max-width: 750px) {
+    .logo-text {
+        width: 92px;
+        height: 77px;
+        display: block;
+        margin-left: 10px;
+
+    }
+    nav {
+        display: none;
+    }
+}
+
+
+@media (max-width: 445px) {
+    .logo-text {
+        display: none;
+    }
+}
+
+
+
+#cover {
+    padding-top: 54px;
+    background-image: url(/Photoes/cover.png);
+    padding-left: 40px;
+    background-size: cover;
+    height: 820px;
+}
+
+.cover-text-block-1 {
+    width: 821px;
+    height: 305px;
+    background-color: black;
+    font-size: 50px;
+    font-weight: 500;
+    border-radius: 44px;
+    display: flex;
+    padding-left: 55px;
+    align-items: center;
+}
+
+.cover-text-block-2 {
+    padding-left: 55px;
+    font-size: 60px;
+    font-weight: 500;
+    border-color: black;
+    border-radius: 44px;
+    background-color: black;
+    width: 821px;
+    height: 161px;
+    display: flex;
+    align-items: center;
+    margin-top: 23px;
+}
+
+.cover-block{
+    flex-direction: column;
+}
+
+.cover-block button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 554px;
+    height: 169px;
+    font-size: 70px;
+    border-radius: 44px;
+    background-color: white;
+    margin-top: 57px;
+    border: none;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 2);
+}
+.cover-block button:hover {
+    background-color:rgb(204, 204, 204)
+}
+
+
+@media (max-width: 1100px) {
+    .cover-text-block-1 {
+        width: 571px;
+        height: 276px;
+        font-size: 35px;
+    }
+    .cover-text-block-2 {
+        font-size: 40px;
+        width: 528px;
+        height: 132px;
+    }
+    .cover-block button {
+        width: 456px;
+        height: 134px;
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 700px) {
+    .cover-text-block-1 {
+        width: 456px;
+        height: 276px;
+        font-size: 35px;
+    }
+    .cover-text-block-2 {
+        font-size: 35px;
+        width: 456px;
+        height: 132px;
+    }
+    .cover-block button {
+        width: 456px;
+        height: 134px;
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 698px) {
+    .cover-text-block-1 {
+        width: 286px;
+        height: 276px;
+        font-size: 25px;
+        padding-right: 55px;
+    }
+    .cover-text-block-2 {
+        font-size: 25px;
+        width: 286px;
+        height: 132px;
+        padding-right: 55px;
+    }
+    .cover-block button {
+        width: 286px;
+        height: 134px;
+        font-size: 40px;
     }
 }
