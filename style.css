@@ -316,9 +316,33 @@ th {
     color: #4BF3FF
 }
 
+#services button {
+    height: 125px;
+    width: 350px;
+    background-color: white;
+    color: black;
+    font-size: 40px;
+    border-radius: 44px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 2);
+}
+
+#services button:hover {
+    background-color: #4BF3FF;
+}
+
 @media (max-width: 1220px) {
     h1 {
         font-size: 27px;
+    }
+
+    #services button {
+        height: 70px;
+        width: 230px;
+        font-size: 25px;
+        margin-bottom: 20px;
     }
 
     #services {
@@ -347,7 +371,12 @@ th {
     h1 {
         font-size: 22px;
     }
-
+    #services button {
+        height: 40px;
+        width: 120px;
+        font-size: 15px;
+        margin-top: 0;
+    }
     #services {
         display: flex;
     }
@@ -562,7 +591,6 @@ form input:hover {
 }
 
 #record button {
-    border: 0;
     background-color: white;
     height: 70px;
     width: 300px;
@@ -571,6 +599,9 @@ form input:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
+    cursor: pointer;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 2);
 }
 
 #record button:hover {
