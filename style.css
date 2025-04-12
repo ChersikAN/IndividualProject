@@ -106,7 +106,7 @@ nav a {
 
 .cover-text-block-1 {
     width: 600px;
-    height: 305px;
+    height: 250px;
     background-color: black;
     font-size: 40px;
     font-weight: 500;
@@ -121,10 +121,10 @@ nav a {
     font-size: 45px;
     font-weight: 500;
     border-color: black;
-    border-radius: 44px;
+    border-radius: 30px;
     background-color: black;
     width: 600px;
-    height: 161px;
+    height: 100px;
     display: flex;
     align-items: center;
     margin-top: 23px;
@@ -138,9 +138,9 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 400px;
-    height: 125px;
-    font-size: 55px;
+    width: 350px;
+    height: 100px;
+    font-size: 45px;
     border-radius: 44px;
     background-color: white;
     margin-top: 57px;
@@ -176,6 +176,7 @@ nav a {
         border-radius: 30px;
         margin-top: 0;
     }
+
     #cover {
         background-size: 180%;
         height: 500px;
@@ -194,7 +195,7 @@ nav a {
         font-size: 30px;
         width: 456px;
         height: 132px;
-        
+
     }
 
     .cover-block button {
@@ -202,13 +203,14 @@ nav a {
         height: 134px;
         font-size: 50px;
     }
+
     #cover {
         background-size: 200%;
         height: 450px;
     }
 }
 
-@media (max-width:  768px) {
+@media (max-width: 768px) {
     .cover-text-block-1 {
         width: 300px;
         height: 100px;
@@ -233,6 +235,7 @@ nav a {
         font-size: 30px;
         margin-top: 0;
     }
+
     #cover {
         background-size: 220%;
         height: 350px;
@@ -261,6 +264,7 @@ nav a {
         height: 60px;
         font-size: 25px;
     }
+
     #cover {
         background-size: 370%;
         height: 450px;
@@ -459,7 +463,7 @@ th {
     padding: 15px;
     font-weight: 500;
     width: 100%;
-    font-size: 30px;
+    font-size: 25px;
     border: none;
     text-align: center;
     display: flex;
@@ -470,37 +474,216 @@ th {
 .award-accordion-content {
     padding: 0 15px;
     display: none;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 @media (max-width: 1250px) {
     h1 {
         font-size: 27px;
     }
+
     .award-accordion-header .conteiner {
         width: 768px;
     }
-    .award-accordion-header{
+
+    .award-accordion-header {
         height: 40px;
         font-size: 20px;
     }
+
     .award-accordion-content {
         font-size: 15px;
     }
+
     .award-accordion {
         margin-bottom: 15px;
     }
 }
 
 @media (max-width: 750px) {
-    .award-accordion-header{
+    .award-accordion-header {
         height: 20px;
         font-size: 15px;
     }
+
     .award-accordion-content {
         font-size: 10px;
     }
+
     .award-accordion {
         margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+#record .record-heading p {
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#record h1 {
+    margin-bottom: 0;
+}
+
+#record form {
+    margin-bottom: 30px;
+}
+
+form p {
+    margin-left: 40px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+form input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.2);
+    height: 80px;
+    font-size: 30px;
+}
+
+form input:focus {
+    outline: none;
+    border-color: #4BF3FF;
+    border-width: 4px;
+}
+
+form input:hover {
+    border-color: #4BF3FF;
+    border-width: 4px;
+}
+
+#record button {
+    border: 0;
+    background-color: white;
+    height: 70px;
+    width: 300px;
+    border-radius: 25px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#record button:hover {
+    background-color: #4BF3FF;
+}
+
+#record button p {
+    color: black;
+    margin: 0;
+    font-size: 30px;
+}
+
+#record .check {
+    font-size: 30px;
+    color: red;
+    display: none;
+}
+
+#record {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#record .container{
+    width: 100%;
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1250px) {
+    #record .record-heading p {
+        font-size: 22px;
+    }
+
+    #record .container {
+        width: 730px;
+    }
+
+    form input {
+        height: 50px;
+        font-size: 20px;
+    }
+
+    #record button {
+        height: 50px;
+        width: 250px;
+        border-radius: 20px;
+    }
+
+    #record button p {
+        font-size: 25px;
+    }
+
+    form p {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 750px) {
+    #record .record-heading p {
+        font-size: 22px;
+    }
+
+    #record .container {
+        width: 400px;
+    }
+
+    form input {
+        height: 40px;
+        font-size: 15px;
+    }
+
+    #record button {
+        height: 50px;
+        width: 180px;
+
+    }
+
+    #record button p {
+        font-size: 17px;
+    }
+
+    form p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 445px) {
+    #record .record-heading p {
+        font-size: 20px;
+    }
+
+    #record .container {
+        width: 300px;
+    }
+
+    form input {
+        height: 40px;
+        font-size: 15px;
+    }
+
+    #record button {
+        height: 40px;
+        width: 150px;
+        border-radius: 15px;
+    }
+
+    #record button p {
+        font-size: 15px;
+    }
+
+    form p {
+        font-size: 15px;
     }
 }
