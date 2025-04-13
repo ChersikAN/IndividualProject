@@ -48,7 +48,7 @@ nav a {
 
 }
 
-.logo-text {
+header .logo-text {
     width: 0px;
     height: 0px;
     display: none;
@@ -716,5 +716,154 @@ form input:hover {
 
     form p {
         font-size: 15px;
+    }
+}
+
+
+
+
+
+#contacts {
+    background: #404040;
+    border: none;
+    border-top: #CACACA 1px solid;
+}
+
+#contacts p {
+    font-size: 25px;
+}
+
+#contacts .logo-icon {
+    margin-right: 4px;
+}
+
+.logo-photot-text {
+    display: flex;
+    align-items: center;
+}
+
+.info-phone {
+    display: inline-flex;
+    align-items: center;
+}
+
+.info-contacts img {
+    width: 50px;
+    height: 50px;
+}
+
+.info-adress {
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sot-network {
+    flex-direction: column;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sot-network img {
+    width: 70px;
+    height: 70px;
+}
+
+.footer-site p {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(131, 131, 131);
+    margin: 0;
+    margin-top: 5px;
+    justify-content: center;
+}
+
+@media (max-width: 1250px) {   
+    .logo-icon {
+        width: 80px;
+        height: 70px;
+        margin-right: 4px;
+    } 
+    .logo-text {
+        width: 115px;
+        height: 85px;
+    }
+    #contacts p {
+        font-size: 20px;
+    }
+    
+    .info-contacts img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .sot-network img {
+        width: 60px;
+        height: 60px;
+    }
+    .footer-site p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 750px) {
+    .logo-icon {
+        width: 70px;
+        height: 60px;
+        margin-right: 4px;
+    } 
+    .logo-text {
+        display: none;
+    }
+    #contacts p {
+        font-size: 15px;
+    }
+    
+    .info-contacts img {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .sot-network img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer-site p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 445px) {
+    .logo-icon {
+        width: 50px;
+        height: 40px;
+    } 
+    .logo-text {
+        display: none;
+    }
+    #contacts p {
+        font-size: 10px;
+    }
+    #contacts {
+        padding: 0px 10px 0px 10px ;
+    }
+    .info-contacts img {
+        width: 15px;
+        height: 15px;
+    }
+    
+    .sot-network img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .footer-site p {
+        font-size: 0px;
     }
 }
