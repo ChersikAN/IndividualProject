@@ -236,19 +236,17 @@
                 </div>
                 <form id="form">
                     <p><b>Введите имя</b></p>
-                    <input placeholder="Имя" class="input" id="name-input">
+                    <input type="text" placeholder="Имя" class="input" id="name-input">
                     <p id="name-error"></p>
 
                     <p><b>Введите телефон</b></p>
-                    <input placeholder="+7 (999) 999-99-99" class="input" id="phone-input">
+                    <input type="tel" placeholder="+7 (999) 999-99-99" class="input" id="phone-input">
                     <p id="phone-error"></p>
 
                     <p><b>Введите почту</b></p>
-                    <input placeholder="Login@mail.ru" class="input" id="email-input">
+                    <input type="email" placeholder="Login@mail.ru" class="input" id="email-input">
                     <p id="email-error"></p>
-                    <button type="submit">
-                        <p>Отправить</p>
-                    </button>
+                    <button type="submit">Отправить</button>
                 </form>
             </div>
         </section>
@@ -270,17 +268,23 @@
                         <img src="/Photoes/contacts-phone.png" alt="contacts-phone" class="contacts-phone">
                         <p>+7 (985) 144-74-54</p>
                     </div>
-                    <div class="info-adress">
-                        <img src="/Photoes/contacts-map.png" alt="contacts-map">
-                        <p>Перовская улица, дом 13<br>корпус 1, город Москва</p>
-                    </div>
+                    <a href="https://yandex.ru/maps/213/moscow/house/perovskaya_ulitsa_13k1/Z04YcQFiSUMBQFtvfXt1dnprYw==/?ll=37.762569%2C55.747480&z=16.86">
+                        <div class="info-adress">
+                            <img src="/Photoes/contacts-map.png" alt="contacts-map">
+                            <p>Перовская улица, дом 13<br>корпус 1, город Москва</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="sot-network">
                     <a href="https://wa.me/78161454587?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!">
-                        <img src="/Photoes/contacts-whatsApp.png" alt="contacts-whatsApp" class="contacts-whatsApp">
+                        <div class="contacts-Wa">
+                            <img src="/Photoes/contacts-whatsApp.png" alt="contacts-whatsApp" class="contacts-whatsApp">
+                        </div>
                     </a>
                     <a href="https://t.me/+hP6iOWQnBKlhOTQy">
-                        <img src="/Photoes/contacts-telegram.png" alt="contacts-telegram" class="contacts-telegram">
+                        <div class="contacts-tg">
+                            <img src="/Photoes/contacts-telegram.png" alt="contacts-telegram" class="contacts-telegram">
+                        </div>
                     </a>
                 </div>
             </div>
